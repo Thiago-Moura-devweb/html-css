@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+    margin: auto;
+    max-width: 1400px; /* Evita linhas muito longas, ruim para o olho */
+}
+
+div {
+    padding: 10px;
+    margin-top: 60px;
+    margin-right: 240px;
+    margin-left: 240px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-color: rgba(255, 232, 211, 0.253);
+
+}
+
+h1, h2 {
+    color: rgba(54, 53, 0, 0.685);
+    font-family: 'Lobster Two';
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    color: rgb(56, 52, 0);
+    text-indent: 30px; /* Afasta a primeira linha do parágrafo */
+    font-family: "Fredericka the Great";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: left; /* Alinhamento padrão */
+    line-height: 1.6; /* Melhora muito a leitura */
+    margin-bottom: 1.5em; /* Espaço entre parágrafos */
+}
+
+.lapis {
+    line-height: 1.6; /* Melhora muito a leitura */
+    font-family: "Playwrite GB J Guides";
+    margin-bottom: 1.5em; /* Espaço entre parágrafos */
+}

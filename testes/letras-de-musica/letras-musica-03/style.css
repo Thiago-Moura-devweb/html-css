@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+h1{
+    text-align: center;
+    color: #E75D00;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: #B2C004;
+    font-size: 30px;
+}
+.letra {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 10dvh;
+    margin-top: 10dvh;
+    margin-left: 50dvh;
+    margin-right: 50dvh;
+    border-radius: 5px;
+}
+div {
+    padding-top: 10dvh;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Lobster Two";
+}
+
+p {
+    margin-left: 21%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+#video {
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 10dvh; /* Define altura para notar o alinhamento vertical */
+    font-size: 1.4em;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+    color: #B2C004;
+    text-decoration: none;
+}

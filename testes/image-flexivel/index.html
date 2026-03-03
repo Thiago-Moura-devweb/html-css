@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="corazon.ico" type="image/x-icon">
+    <style>
+        body{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+    <title>Flexivel</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        <source media="(max-width: 850px)" srcset="imagens/foto-400.jpeg" type="image/jpeg">
+        <source media="(max-width: 1250px)" srcset="imagens/foto-800.jpeg" type="image/jpeg">
+        <img src="imagens/foto-1200.jpeg" alt="imagem">
+    </picture>
+</body>
+</html>

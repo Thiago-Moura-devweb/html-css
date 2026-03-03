@@ -1,0 +1,28 @@
+a {
+    color: rgb(255, 255, 227);
+}
+
+p {
+    color: rgb(255, 255, 227);
+}
+div{
+    background-color: rgba(0, 7, 73, 0.438);
+    color: rgb(255, 255, 227);
+    display: flexbox;
+    padding: 10dvh;
+    margin-right: 60dvh;
+    margin-left: 60dvh;
+    margin-top: 10dvh;
+    margin-bottom: 10dvh;
+    border-radius: 10px;
+}
+.bottom {
+    text-align: center;
+    padding-top: 3dvh;
+    padding-bottom: 3dvh;
+    padding-left: 30dvh;
+    padding-right: 30dvh;
+    margin: auto;
+    border-radius: 46px;
+    background-color: rgba(54, 0, 104, 0.342);
+}

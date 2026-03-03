@@ -1,0 +1,190 @@
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url(fontes/titulo.ttf) format('truetype');
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    
+    margin: 0px;
+    background: linear-gradient(to top, #1a5c38, #3BD37F);
+    padding: 30px;
+}
+
+header > h1 {
+    font-family: 'titulo';
+    color: white;
+    font-size: 2.2em;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'android';
+    color: #256441;
+}
+
+h2 {
+    font-family: 'android';
+    background: linear-gradient(to right, #C6EBD7, #FFFF);
+    color: #256441;
+}
+
+header > p {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: white;
+}
+
+nav > a {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #0d8541;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.especial:hover {
+    
+    text-decoration: underline;
+}
+
+.especial::after {
+    content: '📌';
+}
+
+main {
+    padding: 10px 0px;
+    box-shadow: 4px 3px 7px 1px rgba(0, 0, 0, 0.212);
+    font-family: sans-serif;
+    background-color: white;
+    width: 850px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p {
+    font-family: helvetica;
+    text-indent: 30px;
+}
+
+iframe {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+}
+
+#robozinho {
+    width: 800px;
+    margin: auto;
+}
+
+#irina {
+    margin: auto;
+    width: 800px;
+}
+
+#bugdroid {
+    text-align: center;
+}
+
+section {
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+div#extra {
+    width: 800px;
+    margin: auto;
+    background-color: #C5EBD6;
+    padding: 5px;
+
+    box-shadow: 4px 3px 7px 1px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+}
+
+#extra > h3 {
+    
+    padding: 10px;
+
+    background-color: #2FA866;
+    color: white;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+ul {
+    padding-left: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+ul li::before {
+    content: '✔';
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#rei {
+    color: white;
+}
+
+#rei:hover::before {
+    content: '👑';
+}
+
+#rei:hover::after {
+    content: '👑';
+}
+
+#verme {
+    color: white;
+}
+
+#verme:hover {
+    text-decoration: line-through;
+}
+
+#verme:hover::before {
+    content: '🦠';
+}
+
+#verme:hover::after {
+    content: '🦠';
+}

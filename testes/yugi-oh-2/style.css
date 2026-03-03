@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    font-family: Arial;
+}
+h1,h2 {
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carta > p {
+    display: none;
+}
+
+
+
+div {
+    padding: 15px;
+    font-weight: bolder;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 1.4em;
+    color: azure;
+}
+
+.carta:hover > p {
+    display: block;
+}
+
+#site {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+p {
+    color: azure;
+}
+
+
