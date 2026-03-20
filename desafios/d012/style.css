@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+:root {
+    --font0:'Passion One', cursive;
+    --font1: 'Sriracha', cursive;
+    --font2: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
