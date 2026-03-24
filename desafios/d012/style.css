@@ -50,7 +50,7 @@ header p {
 }
 
 section > p {
-    white-space: nowrap;
+    /* white-space: nowrap; */
     font-family: var(--font1);
     font-size: 3.5vw;
     line-height: 2em;
@@ -78,8 +78,8 @@ section > p {
 }
 
 .imagem p {
+    display: inline-block;
     padding: 5px;
-    width: 43%;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
 }
