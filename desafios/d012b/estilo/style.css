@@ -42,7 +42,7 @@ header > p {
 header a, footer a {
     color: white;
     text-decoration: none;
-    font-family: bolder;
+    font-weight: bolder;
 }
 
 header a:hover, footer a:hover {
