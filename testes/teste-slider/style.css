@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Exemplo simples de estrutura */
+.slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 600%; /* Ex: 5 imagens */
+    animation: slideShow 7s infinite;
+}
+
+img {
+    width: 20vw;
+}
+
+.slide {
+    width: 20%; /* 100% / número de imagens */
+}
+
+@keyframes slideShow {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); }
+    100% { transform: translateX(-100%); }
+    50% { transform: translateX(50%); }
+    
+    /* Adicione os passos para o restante das imagens */
+}
