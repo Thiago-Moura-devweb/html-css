@@ -56,10 +56,19 @@ a {
     padding: 10px;
     margin: 0px 10px;
     grid-template: 1fr 3fr 3fr / repeat(3, 1fr);
+    gap: 15px;
+}
+
+.conteiner-cartas img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 .conteiner-cartas h2 {
     text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
 
 .carta1 {
@@ -70,7 +79,15 @@ a {
     grid-column-end: -1;
 }
 
+div.img {
+    text-align: center;
+}
+
 .carta2 {
+    padding: 10px;
+    border: dashed 1px blue;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+
