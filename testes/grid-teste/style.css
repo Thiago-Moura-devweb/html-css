@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav > a {
+    font-size: 1.1em;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner-flex {
+    display: flex;
+}
+
+.conteiner {
+    display: grid;
+    height: 400px;
+    width: 200px;
+    border: solid 1px black;
+    align-content: space-evenly;
+}
+
+.info-lateral {
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.conteiner-cartas {
+    display: grid;
+    width: 900px;
+    height: 100vh;
+    padding: 10px;
+    margin: 0px 10px;
+    grid-template: 1fr 3fr 3fr / repeat(3, 1fr);
+}
+
+.conteiner-cartas h2 {
+    text-align: center;
+}
+
+.carta1 {
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.carta2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
