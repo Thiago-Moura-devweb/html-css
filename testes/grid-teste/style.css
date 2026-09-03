@@ -17,14 +17,26 @@ nav {
 nav > h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.8em;
-    padding: 5px;
+    padding: 10px;
     margin-left: 10px;
+    color: rgb(255, 250, 225);
+    text-shadow: #ffff00 1px 1px 4px;
 }
 
 nav > a {
     font-size: 1.1em;
     padding: 10px;
     margin-left: 60px;
+    margin-top: 5px;
+    color: rgb(255, 250, 225);
+}
+
+nav > a:hover {
+    text-shadow: #ffff00 1px 1px 4px;
+}
+
+main, body {
+    background-color: rgba(26, 23, 20, 0.856);
 }
 
 a {
@@ -32,21 +44,48 @@ a {
     color: black;
 }
 
+h2 {
+    margin-bottom: 5px;
+}
+
+h2 > a {
+    color: rgb(209, 215, 216);
+}
+
 .conteiner-flex {
     display: flex;
+    background-color: rgb(51, 46, 35);
 }
 
 .conteiner {
     display: grid;
     height: 400px;
     width: 200px;
-    border: solid 1px black;
+    margin-top: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffff00, inset 0 0 10px #ffff00;
     align-content: space-evenly;
 }
 
 .info-lateral {
     font-size: 1.2em;
     padding: 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.info-lateral a {
+    color: rgb(209, 215, 216);
+}
+
+.info-lateral:hover {
+    opacity: 1;
+    color: #ffffff;
+    text-shadow: #ffff00 1px 1px 0px;
+    border-color: #ffff00;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffff00, inset 0 0 10px #ffff00;
 }
 
 .conteiner-cartas {
@@ -66,6 +105,7 @@ a {
 }
 
 .conteiner-cartas h2 {
+    color: rgb(209, 215, 216);
     text-align: center;
     font-size: 1.2em;
     letter-spacing: 1px;
@@ -79,15 +119,33 @@ a {
     grid-column-end: -1;
 }
 
+.carta1 h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgb(209, 215, 216);
+}
+
 div.img {
     text-align: center;
 }
 
 .carta2 {
-    padding: 10px;
-    border: dashed 1px blue;
+    padding: 20px;
+    color: rgb(209, 215, 216);
+    border: 2px solid #ffff00;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffff00, inset 0 0 10px #ffff00;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+.carta3, .carta4, .carta5, .carta6, .carta7 {
+    padding: 20px;
+    color: rgb(209, 215, 216);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffff00, inset 0 0 10px #ffff00;
+}
+
 
 
